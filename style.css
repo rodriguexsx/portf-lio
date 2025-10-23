@@ -6,8 +6,10 @@
 }
 
 body {
-  /* Fundo somente com a imagem (sem degradê) */
-  background: url('https://media.discordapp.net/attachments/991424657926410390/1430998408151302215/Captura_de_tela_2025-07-05_214750.png?ex=68fbd09f&is=68fa7f1f&hm=fd10031aa8da77439c5162a24dba8a5e7df34508ffa6d0c16ae0e4c894f0a2a1&=&format=webp&quality=lossless&width=1526&height=859');
+  /* Fundo com degradê bem leve e imagem */
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url('https://media.discordapp.net/attachments/991424657926410390/1430998408151302215/Captura_de_tela_2025-07-05_214750.png?ex=68fbd09f&is=68fa7f1f&hm=fd10031aa8da77439c5162a24dba8a5e7df34508ffa6d0c16ae0e4c894f0a2a1&=&format=webp&quality=lossless&width=1526&height=859');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -57,7 +59,7 @@ section {
   padding: 60px 20px;
   max-width: 800px;
   margin: 0 auto;
-  background-color: rgba(10, 10, 10, 0.7); /* fundo escuro leve atrás do texto */
+  background-color: rgba(10, 10, 10, 0.6); /* fundo escuro leve atrás do texto */
   border-radius: 10px;
 }
 
